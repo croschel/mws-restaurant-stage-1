@@ -122,6 +122,7 @@ nav h1 a {
   font-weight: normal;
   line-height: 1;
   margin: 0 20px;
+  padding-top: 0.5em;
 }
 .filter-options select {
   background-color: white;
@@ -132,7 +133,7 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 10px;
-  width: 200px;
+  width: 11%;
   box-shadow: 2px 2px black;
 }
 
@@ -140,14 +141,14 @@ nav h1 a {
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
-  margin: 0;
-  padding: 30px 15px 60px;
+  padding: 0;
+  margin: 2em;
+  /*padding: 30px 15px 60px;*/
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  margin-left: 2em;
-
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  max-width: 100%; 
 }
 #restaurants-list li {
   background-color: #fff;
@@ -157,7 +158,7 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
-  width: 18%;
+  width: 80%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
