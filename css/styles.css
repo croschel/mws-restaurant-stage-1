@@ -8,7 +8,7 @@ body,td,th,p{
 	line-height: 1.5;
 }
 body {
-	background-color: #fdfdfd;
+	background-color: white;
 	margin: 0;
 	position:relative;
 }
@@ -42,7 +42,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #BABABA;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 15px;
@@ -53,7 +53,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 nav {
   width: 100%;
   height: 80px;
-  background-color: #252831;
+  background-color:rgb(199, 0, 0);
   text-align:center;
 }
 nav h1 {
@@ -116,7 +116,7 @@ nav h1 a {
 .filter-options {
   width: 80%;
   height: 50px;
-  background-color: #3397DB;
+  background-color: rgb(199, 0, 0);
   align-items: center;
   text-align: center;
   margin-left: 10%;
@@ -253,7 +253,7 @@ nav h1 a {
   min-width: 100%;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  color: rgb(214, 0, 0);
   font-family: Arial,sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -267,7 +267,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: rgb(214, 0, 0);
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
